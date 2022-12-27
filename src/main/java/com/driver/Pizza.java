@@ -72,7 +72,7 @@ public class Pizza {
         if(BillGenerated==false){
 
             if(ischeeseAdded==true) {
-                this.bill= this.bill+"Extra Cheese Added: "+ this.cheesePrice+"\n";
+                this.bill= this.bill+"Extra Cheese Added: "+ this.cheesePrice+"\n";//Added:" ..space nai tha , 2hr wasted
             }
             if(isToppingAdded==true){
                 this.bill=this.bill+"Extra Toppings Added: "+this.toppingPrice+"\n";
